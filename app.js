@@ -6,7 +6,7 @@ const connectDb = require("./Db");
 const testRoutes = require("./routes/test");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // middleware
 app.use(cookieParser());
